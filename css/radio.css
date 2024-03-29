@@ -1,0 +1,81 @@
+main{
+    width: 400px;
+    background-color: greenyellow;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+header{
+    text-align: center;
+    color: white;
+    height: 225px;
+}
+#logo{
+    width: 80px;
+    border-radius: 15px;
+    border: 3px solid white;
+    box-shadow: 0px 5px 10px black;
+}
+#title{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin: 8px 0;
+}
+#description{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#radioContent{
+    background-color: rgb(100, 150, 241);
+}
+#btns{
+    padding-top: 15px;
+}
+#btns button{
+    margin: 0 10px 10px;
+}
+#sound input{
+    width: 95%;
+    -webkit-appearance: none;
+    background: rgb(60, 71, 226);
+    height: 5px;
+    margin: 0%;
+}
+input[type=range]::-webkit-slider-thumb{
+    width: 35px;
+    -webkit-appearance: none;
+    background: blue;
+    height: 12px;
+}
+h2{
+    margin: 15px 0px;
+}
+#themes{
+    margin-top: 15px;
+    width: 100%;
+}
+#themes button{
+    width: 45px;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid blue;
+}
+#theme1{
+    background-image: linear-gradient(to right, #885C48,#80221E);
+}
+#theme2{
+    background-image: linear-gradient(to right, #FCBC58, #E0DDCA);
+}
+#theme3{
+    background-image: linear-gradient(to right, #38B4D0, #FFF7EC, #A9E2F5);
+}
+#theme4{
+    background-image: linear-gradient(to right, #555A54, #BFBBAF);
+}
+#theme5{
+    background-image: linear-gradient(to right, #407C87, #A5DBDD);
+}
+#theme6{
+    background-image: linear-gradient(to right, #F7444E, #F7F8F3, #002C3E);
+}

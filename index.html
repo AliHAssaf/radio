@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/radio.css">
+</head>
+<body>
+    <main id="radio">
+        <header>
+            <img src="img/logo.webp" id="logo">
+            <h1 id="title">Radio ALI</h1>
+            <p id="description">The First Radio</p>
+        </header>
+        <div id="radioContent">
+            <article id="btns">
+                <button id="back">|<</button>
+                <button id="play-pause-button">play</button>
+                <button id="next">>|</button>
+                <audio src="https://audio.nrpstream.com/public/nogoumfm/embed#" id="radioFile">
+                </audio>
+            </article>
+            <article id="sound">
+                <h2>Volume</h2>
+                <input type="range" id="soundVolume">
+                <h2>Speed</h2>
+                <input type="range" id="soundSpeed" min="0" max="200">
+            </article>
+            <article id="themes">
+                <button id="theme1"></button>
+                <button id="theme2"></button>
+                <button id="theme3"></button>
+                <button id="theme4"></button>
+                <button id="theme5"></button>
+                <button id="theme6"></button>
+            </article>
+        </div>
+    </main>
+    <script src="script/radio.js"></script>
+    <script src="script/sound.js"></script>
+</body>
+</html>
